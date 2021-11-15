@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <table>
+        <caption><b>Contacta</b></caption>
+        <tr>
+            <td style="width: 1%;">Ciudad<br><select>
+                <option>Madrid</option>
+                <option>Barcelona</option>
+                <option>Paris</option>
+                <option>Sevilla</option>
+                <option>Córdoba</option>
+                <option>Cádiz</option>
+                <option>Arezzo</option>
+                <option>Granada</option>
+            </select></td>
+            <td style="width: 2%;">Numero de adultos: <input type="number" style="width: 13%;"></td>
+        </tr>
+        <tr>
+            <td>
+                <input placeholder="Nombre" type="text" style="width: 40%;"><br>
+                <input placeholder="Apellidos" type="text" style="width: 40%;"><br>
+                <input placeholder="Correo electónico"type="email"><br>
+                <input placeholder="Teléfono" type="number">
+            </td>
+            <td>Régimen de desayuno<br>
+                <input type="radio" id="desayuno" name="regimen" value="Desayuno">
+                <label for="desayuno">Desayuno</label><br>
+                <input type="radio" id="mediapension" name="regimen" value="Media Pensión">
+                <label for="mediapension">Media Pensión</label><br>
+                <input type="radio" id="pensioncompleta" name="regimen" value="Pensión Completa">
+                <label for="pensioncompleta">Pensión Completa</label><br>
+                <input type="radio" id="todoincluido" name="regimen" value="Todo Incluido">
+                <label for="todoincluido">Todo Incluido</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Otros:<br>
+                <input type="text">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <a href="./InicioTour.html"><input type="button" value="Volver"></a> <input type="button" value="Limpiar"> <input type="button" value="Enviar">
+</body>
+</html>
