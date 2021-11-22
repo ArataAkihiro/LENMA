@@ -1,15 +1,20 @@
 table {
+    width: 100%;
     background-color: rgb(38, 195, 148);
     border: 1px solid black;
-    margin-right: auto;
-    margin-left: auto;
+    
+}
+caption {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
 }
 td {
     border: 1px solid black;
     font-weight: bold;
     text-align: center;
     border-collapse: collapse;
-    width: fit-content;
+    width: calc(100%/4);
     background-color: rgb(38, 195, 148);
 }
 th {
@@ -20,17 +25,28 @@ h1 {
 }
 * {
     font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
 }
 body {
     background-color: rgb(197, 197, 197);
 }
-
 .ciudad {
     transition: ease-in 0.2s;
     filter: grayscale(80%);
+    width: 100%;
 }
 
 .ciudad:hover {
     filter: grayscale(0);
 }
+
+.textoenlace {
+    transition: ease-in-out 0.2s;
+    font-size: 100%;
+}
+
+.textoenlace:hover {
+    background-color: rgb(218, 218, 218);
+    font-size: 120%;
+    transition: ease-in-out 0.2s;
+}
+
